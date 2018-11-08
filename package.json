@@ -4,7 +4,6 @@
   "description": "test xteck",
   "main": "index.js",
   "scripts": {
-    "start": "babel src -d public &&  node public/index.js",
     "build": "babel src -d public"
   },
   "author": "saidi zied",
