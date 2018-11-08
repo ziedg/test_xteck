@@ -1,0 +1,16 @@
+{
+  "name": "test_xteck",
+  "version": "1.0.0",
+  "description": "test xteck",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel src -d public &&  node public/index.js",
+    "build": "babel src -d public"
+  },
+  "author": "saidi zied",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
